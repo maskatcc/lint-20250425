@@ -9,7 +9,7 @@
     "build": "tsc"
   },
   "lint-staged": {
-    "*.ts": "eslint"
+    "*.ts": ["eslint", "tsc --noEmit"]
   },
   "author": "",
   "license": "ISC",
